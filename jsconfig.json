@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"],
+  "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+  "include": ["src/**/*.vue", "src/**/*.js"]
+}
